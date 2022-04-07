@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.alert import Alert
 
 # 크롬 드라이버 설정
-s = Service('/Users/jhyunwoo/Documents/Programming/11_Auto-Selfcheck_Program/chromedriver')
+s = Service('/Users/jhyunwoo/Documents/Programming/auto-selfcheck/chromedriver')
 driver = webdriver.Chrome(service=s)
 
 # 텔레그램 설정
